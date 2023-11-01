@@ -11,7 +11,7 @@ int main(void)
 {
 	bst_t *root;
 	bst_t *node;
-	
+
 	root = NULL;
 	node = bst_insert(&root, 98);
 	printf("Inserted: %d\n", node->n);

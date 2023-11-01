@@ -47,14 +47,14 @@ int main(void)
 	for (i = nodes; *i; i++)
 		for (j = nodes; *j; j++)
 			launch_test(*i, *j);
-    /*
-    launch_test(root->left, root->right);
-    launch_test(root->right->left, root->right->right->right);
-    launch_test(root->right->right, root->right->right->right);
-    launch_test(node_98, node_128);
-    launch_test(node_128, node_98);
-    launch_test(node_98, node_10);
-    launch_test(node_10, node_98);
-    */
+	/*
+	launch_test(root->left, root->right);
+	launch_test(root->right->left, root->right->right->right);
+	launch_test(root->right->right, root->right->right->right);
+	launch_test(node_98, node_128);
+	launch_test(node_128, node_98);
+	launch_test(node_98, node_10);
+	launch_test(node_10, node_98);
+	*/
 	return (0);
 }
